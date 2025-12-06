@@ -604,5 +604,5 @@ async def back_to_main_handler(callback: CallbackQuery, state: FSMContext):
     """العودة للقائمة الرئيسية"""
     await state.clear()
     await callback.message.answer("رسالة هنا")
-        "🏠 <b>القائمة الرئيسية</b>",
+    "🏠 <b>القائمة الرئيسية</b>",
       
